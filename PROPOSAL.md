@@ -1,21 +1,21 @@
-# Procrastination Prevention App
+# Raycaster Adventure Game
 
-My final project idea is to create an app to prevent procrastination by making the user go cold turkey. For example, it will block the user from opening games or using the internet and admonish the user for anything they do wrong.
+My final project idea is to create a game that runs a simulated 3d environment using raycaster graphics to create a dungeon to explore
 
 ## Personal Interest
 
-I honestly think that this idea is one that I would be interested to work in. Not only do I struggle with procrastination, but I've made an extension to prevent me from going onto distracting sites before so I'd consider myself reasonably qualified
+As a kid, I wanted to code raycasters for a long time in Scratch (progamming language for kids) because it only had 2D graphics. Games like the original Doom and Wolfenstein used this, and it looked incredible to me at the time.
 
 ## Timeline
 
 Roughly, this is the timeline I would follow:
-* Week 1: I would complete the basic functionality (ie reading apps running, time, internet access)
-* Week 2: I would use these functions to implement the basic app(closing apps and turning off the internet)
-* Week 3: I'd add extra features like challenges to disable the app and verbal/visual feedback to improve the experience beyond barebones
+* Week 1: I would complete everything necessary for raycasting (ie creating a world map, a moveable player entity, inventory, etc.)
+* Week 2: I would use these functions to implement the raycasting graphics functionality (this is where cinder is important)
+* Week 3: I'd add polish the game and add features like items and entities to make it play more like a game
 
 ## Stretch Goals
 
 Some cool features I'd like to add as bonuses:
-* A stats tracker that keeps track of hours focused, distracted etc.
-* A system that gives you free time and breaks etc.
-* Overlay that lets the app draw info on top of whatever work you're doing
+* Adding music as well as sound effects
+* Adding visual effects like warping the screen and fade transitions
+* Adding functionality to render multiple heights of blocks (really hard)
