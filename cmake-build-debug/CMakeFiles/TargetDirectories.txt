@@ -1,0 +1,4 @@
+C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/cmake-build-debug/CMakeFiles/final-project-game.dir
+C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/cmake-build-debug/CMakeFiles/final-project-test.dir
+C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/cmake-build-debug/CMakeFiles/rebuild_cache.dir

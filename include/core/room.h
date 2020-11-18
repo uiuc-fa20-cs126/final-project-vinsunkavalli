@@ -1,6 +1,9 @@
 #ifndef FINAL_PROJECT_VINSUNKAVALLI_ENGINE_INCLUDE_CORE_ROOM_H_
 #define FINAL_PROJECT_VINSUNKAVALLI_ENGINE_INCLUDE_CORE_ROOM_H_
 
+#include <vector>
+#include <glm/glm.hpp>
+
 class Room{
  private:
   std::vector<std::vector<int>> room_map_;
