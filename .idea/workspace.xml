@@ -20,7 +20,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:week2" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -38,9 +38,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/core/room.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/room.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/testroom" beforeDir="false" afterPath="$PROJECT_DIR$/resources/testroom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/room.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/room.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="week1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,6 +118,7 @@
       <workItem from="1605403543350" duration="644000" />
       <workItem from="1605470455592" duration="5197000" />
       <workItem from="1605664245033" duration="8654000" />
+      <workItem from="1606877991831" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="Came up with a new idea for the game and started work on it immediately">
       <created>1605471102547</created>
@@ -157,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605668391692</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)">
+      <created>1606878226006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606878226006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)">
+      <created>1606878235102</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606878235102</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +186,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="week2" />
                       </list>
                     </value>
                   </entry>
@@ -193,7 +205,8 @@
     <MESSAGE value="Created brief class outlines in headers, as well as added more header classes" />
     <MESSAGE value="Finished writing header code and creating cpp files - forgot to commit yesterday" />
     <MESSAGE value="Finished writing all code for core cpp files - except the operator overload and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished writing all code for core cpp files - except the operator overload and tests" />
+    <MESSAGE value="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605664687229">
@@ -208,6 +221,26 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="273" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1605665814832" />
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom" timestamp="1606878235579">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1606878235579" />
+    <state width="1663" height="355" key="GridCell.Tab.0.center" timestamp="1606878235579">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1606878235579" />
+    <state width="1663" height="355" key="GridCell.Tab.0.left" timestamp="1606878235579">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1606878235579" />
+    <state width="1663" height="355" key="GridCell.Tab.0.right" timestamp="1606878235579">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1606878235579" />
+    <state x="446" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606878260780">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="446" y="251" key="Vcs.Push.Dialog.v2/0.0.1707.1036@0.0.1707.1036" timestamp="1606878260780" />
     <state x="93" y="93" width="1521" height="851" key="dock-window-1" timestamp="1605396998700">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
