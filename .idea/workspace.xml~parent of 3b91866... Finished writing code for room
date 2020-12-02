@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="final-project" targetName="final-project-test" />
+      <config projectName="final-project" targetName="final-project-game" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final-project-vinsunkavalli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final-project-vinsunkavalli.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/entity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/entity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/entity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/room.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/room.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kIV7JsSpHQ4U4PPZV1Q5KeyqAn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli" />
+      <recent name="C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\engine\include\core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.final-project-game">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="final-project-game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-game" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-game">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="final-project-test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.final-project-game" />
+      <item itemvalue="CMake Application.final-project-test" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="" />
+      <created>1605387924281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605387924281</updated>
+      <workItem from="1605387925385" duration="4052000" />
+      <workItem from="1605403543350" duration="644000" />
+      <workItem from="1605470455592" duration="5197000" />
+      <workItem from="1605664245033" duration="3912000" />
+    </task>
+    <task id="LOCAL-00001" summary="Came up with a new idea for the game and started work on it immediately">
+      <created>1605471102547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605471102548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rough outline of how the game classes would look">
+      <created>1605471387239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605471387239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created brief class outlines in headers, as well as added more header classes">
+      <created>1605491959744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605491959744</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished writing header code and creating cpp files - forgot to commit yesterday">
+      <created>1605665234309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605665234309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Came up with a new idea for the game and started work on it immediately" />
+    <MESSAGE value="Rough outline of how the game classes would look" />
+    <MESSAGE value="Created brief class outlines in headers, as well as added more header classes" />
+    <MESSAGE value="Finished writing header code and creating cpp files - forgot to commit yesterday" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished writing header code and creating cpp files - forgot to commit yesterday" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605664687229">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1605664687229" />
+    <state x="93" y="93" width="1521" height="851" key="DiffContextDialog" timestamp="1605471675902">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="93" y="93" width="1521" height="851" key="DiffContextDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1605471675902" />
+    <state x="634" y="273" key="FileChooserDialogImpl" timestamp="1605665814832">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="634" y="273" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1605665814832" />
+    <state x="93" y="93" width="1521" height="851" key="dock-window-1" timestamp="1605396998700">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="93" y="93" width="1521" height="851" key="dock-window-1/0.0.1707.1036@0.0.1707.1036" timestamp="1605396998700" />
+  </component>
+</project>
