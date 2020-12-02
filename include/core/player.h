@@ -1,26 +1,22 @@
 #ifndef FINAL_PROJECT_VINSUNKAVALLI_ENGINE_INCLUDE_CORE_PLAYER_H_
 #define FINAL_PROJECT_VINSUNKAVALLI_ENGINE_INCLUDE_CORE_PLAYER_H_
 
-#include "entity.h"
+#include <core/entity.h>
 #include <vector>
 
 class Player: public Entity{
  private:
-  glm::vec2 velocity_;
   float direction_;//from 0 to 360
-
-  std::vector<char> inventory_;
  public:
   Player(float posX, float posY, float direction=0.0f);
 
-  glm::vec2 getVelocity();
+  //no need to add position functions/variables as entity already contains them
   float getDirection();
-
-  void setVelocity(float velX, float velY);
   void setDirection(float direction);
 
-  void addItem(char item);
-  char removeItem(char item);
+  //void update(Room room) override;
+  //haven't coded items yet so item functions for inventory haven't been coded
+  //TODO Code Item functions
 };
 
 #endif //FINAL_PROJECT_VINSUNKAVALLI_ENGINE_INCLUDE_CORE_PLAYER_H_

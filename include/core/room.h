@@ -6,19 +6,21 @@
 #include <fstream>
 #include <iostream>
 #include <glm/glm.hpp>
+#include "player.h"
 
 class Room{
  private:
-  std::vector<std::vector<int>> room_map_;
-
-  glm::vec2 bounds;
+  std::vector<std::vector<char>> room_map_;
+  glm::vec2 bounds_;
  public:
   Room();
-  Room(std::vector<std::vector<int>> map);
+  Room(std::vector<std::vector<char>> map);
 
-  std::vector<std::vector<int>> getRoomMap();
+  std::vector<std::vector<char>> getRoomMap();
+  glm::vec2 getRoomBounds();
 
-  void setRoomMap(std::vector<std::vector<int>> map);
+  void setRoomMap(std::vector<std::vector<char>> map);
+  void setRoomBounds(float boundX, float boundY);
 
   friend std::istream& operator>>(std::istream& in, Room& room);
 };
