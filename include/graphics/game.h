@@ -7,6 +7,7 @@
 
 #include "cinder/app/RendererGl.h"
 #include "cinder/gl/gl.h"
+#include <glm/gtx/io.hpp>
 
 class Game : public ci::app::App {
  public:
@@ -16,9 +17,10 @@ class Game : public ci::app::App {
   //void update() override;
 
   //void mouseDown(ci::app::MouseEvent event) override;
-  //void keyDown(ci::app::KeyEvent event) override;
+  void keyDown(ci::app::KeyEvent event) override;
  private:
   Room room_;
+  Player player_;
   Raycaster raycaster_;
   float kWindowSize = 480;
 };

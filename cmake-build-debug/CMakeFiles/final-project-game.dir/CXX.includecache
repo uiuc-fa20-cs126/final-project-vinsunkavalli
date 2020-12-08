@@ -27,6 +27,8 @@ iostream
 -
 glm/glm.hpp
 -
+glm/gtx/io.hpp
+-
 player.h
 ../include/core/player.h
 
@@ -41,6 +43,8 @@ cinder/app/RendererGl.h
 ../include/graphics/cinder/app/RendererGl.h
 cinder/gl/gl.h
 ../include/graphics/cinder/gl/gl.h
+glm/gtx/io.hpp
+-
 
 ../include/graphics/raycaster.h
 cinder/gl/gl.h
@@ -7638,22 +7642,6 @@ C:/Users/buddi/Cinder/include/glm/detail/type_vec4.hpp
 quaternion.inl
 C:/Users/buddi/Cinder/include/glm/gtc/quaternion.inl
 
-C:/Users/buddi/Cinder/include/glm/gtc/quaternion.inl
-../trigonometric.hpp
-C:/Users/buddi/Cinder/include/glm/trigonometric.hpp
-../geometric.hpp
-C:/Users/buddi/Cinder/include/glm/geometric.hpp
-../exponential.hpp
-C:/Users/buddi/Cinder/include/glm/exponential.hpp
-epsilon.hpp
-C:/Users/buddi/Cinder/include/glm/gtc/epsilon.hpp
-limits
--
-quaternion_simd.inl
-C:/Users/buddi/Cinder/include/glm/gtc/quaternion_simd.inl
-
-C:/Users/buddi/Cinder/include/glm/gtc/quaternion_simd.inl
-
 C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.hpp
 ../gtc/quaternion.hpp
 C:/Users/buddi/Cinder/include/glm/gtc/quaternion.hpp
@@ -7817,6 +7805,12 @@ C:/Users/buddi/Cinder/include/glm/ext/quaternion_exponential.hpp
 C:/Users/buddi/Cinder/include/glm/gtx/norm.hpp
 quaternion.inl
 C:/Users/buddi/Cinder/include/glm/gtx/quaternion.inl
+
+C:/Users/buddi/Cinder/include/glm/gtx/quaternion.inl
+limits
+-
+../gtc/constants.hpp
+C:/Users/buddi/Cinder/include/glm/gtc/constants.hpp
 
 C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.hpp
 ../gtx/transform.hpp
@@ -8125,26 +8119,6 @@ detail/setup.hpp
 C:/Users/buddi/Cinder/include/glm/detail/setup.hpp
 detail/func_vector_relational.inl
 C:/Users/buddi/Cinder/include/glm/detail/func_vector_relational.inl
-
-C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/app/cinder_app_main.cpp
-graphics/game.h
--
-
-C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/core/entity.cpp
-core/entity.h
--
-
-C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/core/player.cpp
-core/player.h
--
-
-C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/core/room.cpp
-core/room.h
--
-core/player.h
--
-math.h
--
 
 C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/graphics/game.cpp
 graphics/game.h

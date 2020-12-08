@@ -831,8 +831,6 @@ CMakeFiles/final-project-game.dir/app/cinder_app_main.cpp.obj
  C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.hpp
  C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.inl
  C:/Users/buddi/Cinder/include/glm/gtc/quaternion.hpp
- C:/Users/buddi/Cinder/include/glm/gtc/quaternion.inl
- C:/Users/buddi/Cinder/include/glm/gtc/quaternion_simd.inl
  C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.hpp
  C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.inl
  C:/Users/buddi/Cinder/include/glm/gtc/vec1.hpp
@@ -849,6 +847,7 @@ CMakeFiles/final-project-game.dir/app/cinder_app_main.cpp.obj
  C:/Users/buddi/Cinder/include/glm/gtx/norm.hpp
  C:/Users/buddi/Cinder/include/glm/gtx/norm.inl
  C:/Users/buddi/Cinder/include/glm/gtx/quaternion.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/quaternion.inl
  C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.hpp
  C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.inl
  C:/Users/buddi/Cinder/include/glm/gtx/transform.hpp
@@ -1213,6 +1212,7 @@ CMakeFiles/final-project-game.dir/src/core/room.cpp.obj
  C:/Users/buddi/Cinder/include/glm/detail/func_vector_relational_simd.inl
  C:/Users/buddi/Cinder/include/glm/detail/qualifier.hpp
  C:/Users/buddi/Cinder/include/glm/detail/setup.hpp
+ C:/Users/buddi/Cinder/include/glm/detail/type_float.hpp
  C:/Users/buddi/Cinder/include/glm/detail/type_half.hpp
  C:/Users/buddi/Cinder/include/glm/detail/type_half.inl
  C:/Users/buddi/Cinder/include/glm/detail/type_mat2x2.hpp
@@ -1234,6 +1234,9 @@ CMakeFiles/final-project-game.dir/src/core/room.cpp.obj
  C:/Users/buddi/Cinder/include/glm/detail/type_mat4x4.hpp
  C:/Users/buddi/Cinder/include/glm/detail/type_mat4x4.inl
  C:/Users/buddi/Cinder/include/glm/detail/type_mat4x4_simd.inl
+ C:/Users/buddi/Cinder/include/glm/detail/type_quat.hpp
+ C:/Users/buddi/Cinder/include/glm/detail/type_quat.inl
+ C:/Users/buddi/Cinder/include/glm/detail/type_quat_simd.inl
  C:/Users/buddi/Cinder/include/glm/detail/type_vec1.hpp
  C:/Users/buddi/Cinder/include/glm/detail/type_vec1.inl
  C:/Users/buddi/Cinder/include/glm/detail/type_vec2.hpp
@@ -1244,6 +1247,8 @@ CMakeFiles/final-project-game.dir/src/core/room.cpp.obj
  C:/Users/buddi/Cinder/include/glm/detail/type_vec4.inl
  C:/Users/buddi/Cinder/include/glm/detail/type_vec4_simd.inl
  C:/Users/buddi/Cinder/include/glm/exponential.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/matrix_clip_space.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/matrix_clip_space.inl
  C:/Users/buddi/Cinder/include/glm/ext/matrix_double2x2.hpp
  C:/Users/buddi/Cinder/include/glm/ext/matrix_double2x2_precision.hpp
  C:/Users/buddi/Cinder/include/glm/ext/matrix_double2x3.hpp
@@ -1280,6 +1285,28 @@ CMakeFiles/final-project-game.dir/src/core/room.cpp.obj
  C:/Users/buddi/Cinder/include/glm/ext/matrix_float4x3_precision.hpp
  C:/Users/buddi/Cinder/include/glm/ext/matrix_float4x4.hpp
  C:/Users/buddi/Cinder/include/glm/ext/matrix_float4x4_precision.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/matrix_projection.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/matrix_projection.inl
+ C:/Users/buddi/Cinder/include/glm/ext/matrix_transform.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_common.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_common.inl
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_common_simd.inl
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_double.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_double_precision.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_exponential.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_exponential.inl
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_float.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_float_precision.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_geometric.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_geometric.inl
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_relational.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_relational.inl
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_transform.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_transform.inl
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_trigonometric.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/quaternion_trigonometric.inl
+ C:/Users/buddi/Cinder/include/glm/ext/scalar_constants.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/scalar_constants.inl
  C:/Users/buddi/Cinder/include/glm/ext/vector_bool2.hpp
  C:/Users/buddi/Cinder/include/glm/ext/vector_bool2_precision.hpp
  C:/Users/buddi/Cinder/include/glm/ext/vector_bool3.hpp
@@ -1304,6 +1331,8 @@ CMakeFiles/final-project-game.dir/src/core/room.cpp.obj
  C:/Users/buddi/Cinder/include/glm/ext/vector_int3_precision.hpp
  C:/Users/buddi/Cinder/include/glm/ext/vector_int4.hpp
  C:/Users/buddi/Cinder/include/glm/ext/vector_int4_precision.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/vector_relational.hpp
+ C:/Users/buddi/Cinder/include/glm/ext/vector_relational.inl
  C:/Users/buddi/Cinder/include/glm/ext/vector_uint2.hpp
  C:/Users/buddi/Cinder/include/glm/ext/vector_uint2_precision.hpp
  C:/Users/buddi/Cinder/include/glm/ext/vector_uint3.hpp
@@ -1313,6 +1342,23 @@ CMakeFiles/final-project-game.dir/src/core/room.cpp.obj
  C:/Users/buddi/Cinder/include/glm/fwd.hpp
  C:/Users/buddi/Cinder/include/glm/geometric.hpp
  C:/Users/buddi/Cinder/include/glm/glm.hpp
+ C:/Users/buddi/Cinder/include/glm/gtc/constants.hpp
+ C:/Users/buddi/Cinder/include/glm/gtc/constants.inl
+ C:/Users/buddi/Cinder/include/glm/gtc/matrix_access.hpp
+ C:/Users/buddi/Cinder/include/glm/gtc/matrix_access.inl
+ C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.hpp
+ C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.inl
+ C:/Users/buddi/Cinder/include/glm/gtc/quaternion.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/dual_quaternion.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/dual_quaternion.inl
+ C:/Users/buddi/Cinder/include/glm/gtx/io.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/io.inl
+ C:/Users/buddi/Cinder/include/glm/gtx/norm.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/norm.inl
+ C:/Users/buddi/Cinder/include/glm/gtx/quaternion.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/quaternion.inl
+ C:/Users/buddi/Cinder/include/glm/gtx/type_trait.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/type_trait.inl
  C:/Users/buddi/Cinder/include/glm/integer.hpp
  C:/Users/buddi/Cinder/include/glm/mat2x2.hpp
  C:/Users/buddi/Cinder/include/glm/mat2x3.hpp
@@ -2167,8 +2213,6 @@ CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj
  C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.hpp
  C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.inl
  C:/Users/buddi/Cinder/include/glm/gtc/quaternion.hpp
- C:/Users/buddi/Cinder/include/glm/gtc/quaternion.inl
- C:/Users/buddi/Cinder/include/glm/gtc/quaternion_simd.inl
  C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.hpp
  C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.inl
  C:/Users/buddi/Cinder/include/glm/gtc/vec1.hpp
@@ -2185,6 +2229,7 @@ CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj
  C:/Users/buddi/Cinder/include/glm/gtx/norm.hpp
  C:/Users/buddi/Cinder/include/glm/gtx/norm.inl
  C:/Users/buddi/Cinder/include/glm/gtx/quaternion.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/quaternion.inl
  C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.hpp
  C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.inl
  C:/Users/buddi/Cinder/include/glm/gtx/transform.hpp
@@ -3021,8 +3066,6 @@ CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj
  C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.hpp
  C:/Users/buddi/Cinder/include/glm/gtc/matrix_transform.inl
  C:/Users/buddi/Cinder/include/glm/gtc/quaternion.hpp
- C:/Users/buddi/Cinder/include/glm/gtc/quaternion.inl
- C:/Users/buddi/Cinder/include/glm/gtc/quaternion_simd.inl
  C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.hpp
  C:/Users/buddi/Cinder/include/glm/gtc/type_ptr.inl
  C:/Users/buddi/Cinder/include/glm/gtc/vec1.hpp
@@ -3039,6 +3082,7 @@ CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj
  C:/Users/buddi/Cinder/include/glm/gtx/norm.hpp
  C:/Users/buddi/Cinder/include/glm/gtx/norm.inl
  C:/Users/buddi/Cinder/include/glm/gtx/quaternion.hpp
+ C:/Users/buddi/Cinder/include/glm/gtx/quaternion.inl
  C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.hpp
  C:/Users/buddi/Cinder/include/glm/gtx/rotate_vector.inl
  C:/Users/buddi/Cinder/include/glm/gtx/transform.hpp

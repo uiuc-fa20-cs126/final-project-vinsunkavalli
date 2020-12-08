@@ -6,13 +6,13 @@
 
 class Player: public Entity{
  private:
-  float direction_;//from 0 to 360
+  glm::vec2 direction_;
  public:
-  Player(float posX, float posY, float direction=0.0f);
+  Player(float posX, float posY, float dirX, float dirY);
 
   //no need to add position functions/variables as entity already contains them
-  float getDirection();
-  void setDirection(float direction);
+  glm::vec2 getDirection();
+  void setDirection(float dirX, float dirY);
 
   //void update(Room room) override;
   //haven't coded items yet so item functions for inventory haven't been coded

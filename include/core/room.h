@@ -6,6 +6,7 @@
 #include <fstream>
 #include <iostream>
 #include <glm/glm.hpp>
+#include <glm/gtx/io.hpp>
 #include "player.h"
 
 class Room{

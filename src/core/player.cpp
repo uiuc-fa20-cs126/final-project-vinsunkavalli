@@ -1,15 +1,15 @@
 #include <core/player.h>
 
-Player::Player(float posX, float posY, float direction){
+Player::Player(float posX, float posY, float dirX, float dirY){
   Entity::setPosition(posX, posY);
 
-  direction_ = direction;//made this configurable if necessary
+  direction_ = glm::vec2(dirX, dirY);//made this configurable if necessary
 }
 
-float Player::getDirection() {
+glm::vec2 Player::getDirection() {
   return direction_;
 }
 
-void Player::setDirection(float direction) {
-  direction_ = direction;
+void Player::setDirection(float dirX, float dirY) {
+  direction_ = glm::vec2(dirX, dirY);
 }
