@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/core/enemy.h
+core/entity.h
+-
+
 ../include/core/entity.h
 glm/glm.hpp
 -
@@ -33,11 +37,15 @@ player.h
 ../include/core/player.h
 
 ../include/graphics/game.h
-cinder/app/App.h
--
 core/room.h
 -
+core/player.h
+-
+core/enemy.h
+-
 graphics/raycaster.h
+-
+cinder/app/App.h
 -
 cinder/app/RendererGl.h
 ../include/graphics/cinder/app/RendererGl.h
@@ -8119,6 +8127,10 @@ detail/setup.hpp
 C:/Users/buddi/Cinder/include/glm/detail/setup.hpp
 detail/func_vector_relational.inl
 C:/Users/buddi/Cinder/include/glm/detail/func_vector_relational.inl
+
+C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/app/cinder_app_main.cpp
+graphics/game.h
+-
 
 C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/graphics/game.cpp
 graphics/game.h

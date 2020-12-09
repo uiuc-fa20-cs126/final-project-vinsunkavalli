@@ -11,7 +11,11 @@ Game::Game()
   std::ifstream room_map("C:\\Users\\buddi\\Cinder\\my-projects\\final-project-vinsunkavalli\\resources\\testroom", std::ios::in);
   room_map >> room_;
 
+  score = 0;
 
+  enemies_ = std::vector<Enemy>();
+
+  for()
 }
 
 void Game::draw() {

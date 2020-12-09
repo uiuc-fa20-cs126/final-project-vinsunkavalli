@@ -37,23 +37,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/core/enemy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/enemy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/core/gameengine.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/app/cinder_app_main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/app/cinder_app_main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/player.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/player.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/room.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/room.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/core/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/room.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/room.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/graphics/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graphics/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphics/raycaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/raycaster.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/map_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/map_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +128,7 @@
       <workItem from="1607040151352" duration="900000" />
       <workItem from="1607197631016" duration="3402000" />
       <workItem from="1607388182359" duration="3192000" />
-      <workItem from="1607458502741" duration="10209000" />
+      <workItem from="1607458502741" duration="13766000" />
     </task>
     <task id="LOCAL-00001" summary="Came up with a new idea for the game and started work on it immediately">
       <created>1605471102547</created>
@@ -193,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606879700061</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modified turning method - hopefully less buggy">
+      <created>1607476152388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607476152388</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +230,8 @@
     <MESSAGE value="Finished writing header code and creating cpp files - forgot to commit yesterday" />
     <MESSAGE value="Finished writing all code for core cpp files - except the operator overload and tests" />
     <MESSAGE value="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)" />
+    <MESSAGE value="modified turning method - hopefully less buggy" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified turning method - hopefully less buggy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605664687229">
@@ -245,22 +246,22 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="273" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1605665814832" />
-    <state width="1663" height="355" key="GridCell.Tab.0.bottom" timestamp="1607471932230">
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom" timestamp="1607480727465">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="355" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607471932230" />
-    <state width="1663" height="355" key="GridCell.Tab.0.center" timestamp="1607471932230">
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607480727465" />
+    <state width="1663" height="355" key="GridCell.Tab.0.center" timestamp="1607480727464">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="355" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607471932230" />
-    <state width="1663" height="355" key="GridCell.Tab.0.left" timestamp="1607471932230">
+    <state width="1663" height="355" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607480727464" />
+    <state width="1663" height="355" key="GridCell.Tab.0.left" timestamp="1607480727464">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="355" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607471932230" />
-    <state width="1663" height="355" key="GridCell.Tab.0.right" timestamp="1607471932230">
+    <state width="1663" height="355" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607480727464" />
+    <state width="1663" height="355" key="GridCell.Tab.0.right" timestamp="1607480727464">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="355" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607471932230" />
+    <state width="1663" height="355" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607480727464" />
     <state x="446" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606878260780">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
