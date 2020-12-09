@@ -55,7 +55,7 @@ TEST_CASE("Interacting with the Map") {
   room_map >> map;
 
   //setting up player
-  Player player = Player(1.5, 1.5, 1.0f, 0.0f);
+  Player player = Player(1.5, 1.5, 0.0f);
 
   SECTION("Checking bounds of map") {
     REQUIRE(map.getRoomBounds() == glm::vec2(10, 10));

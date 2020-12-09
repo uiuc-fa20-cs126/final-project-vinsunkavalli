@@ -2,7 +2,7 @@
 
 Game::Game()
   : raycaster_(glm::vec2(0, 0), 480, 1, 480),
-    player_(4, 4, 1, 0){
+    player_(4, 4, -1, 0){
   ci::app::setWindowSize((int) kWindowSize, (int) kWindowSize);
 
   //setup environment
@@ -10,6 +10,8 @@ Game::Game()
 
   std::ifstream room_map("C:\\Users\\buddi\\Cinder\\my-projects\\final-project-vinsunkavalli\\resources\\testroom", std::ios::in);
   room_map >> room_;
+
+
 }
 
 void Game::draw() {
@@ -22,20 +24,27 @@ void Game::draw() {
   //TODO render player model and gui
   ci::gl::drawString("player position: " + std::to_string(player_.getPosition().x) + "," + std::to_string(player_.getPosition().y), glm::vec2(0,0));
   ci::gl::drawString("player direction: " + std::to_string(player_.getDirection().x) + "," + std::to_string(player_.getDirection().y), glm::vec2(0,10));
+  ci::gl::drawString("player angle: " + std::to_string(atan2(player_.getDirection().y, player_.getDirection().x)), glm::vec2(0,20));
 }
 
 void Game::keyDown(ci::app::KeyEvent event) {
   switch (event.getCode()) {
     case ci::app::KeyEvent::KEY_a: {
-      glm::vec2 dir = player_.getDirection();
-      dir = glm::vec2(dir.x * cos(0.1f) - dir.y * sin(0.1f), dir.x * sin(0.1f) + dir.y * cos(0.1f));
+      float angle = atan2(player_.getDirection().y, player_.getDirection().x);
+
+      angle += 0.1f;
+
+      glm::vec2 dir = glm::vec2(cos(angle), sin(angle));
 
       player_.setDirection(dir.x, dir.y);
       break;
     }
     case ci::app::KeyEvent::KEY_d: {
-      glm::vec2 dir = player_.getDirection();
-      dir = glm::vec2(dir.x * cos(0.1f) + dir.y * sin(0.1f), -1.0f * dir.x * sin(0.1f) + dir.y * cos(0.1f));
+      float angle = atan2(player_.getDirection().y, player_.getDirection().x);
+
+      angle -= 0.1f;
+
+      glm::vec2 dir = glm::vec2(cos(angle), sin(angle));
 
       player_.setDirection(dir.x, dir.y);
       break;

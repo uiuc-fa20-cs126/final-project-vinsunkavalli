@@ -1,6 +1,4 @@
 #include <core/room.h>
-#include <core/player.h>
-#include <math.h>
 
 Room::Room() {
   room_map_ = std::vector<std::vector<char>>();

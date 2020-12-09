@@ -30,8 +30,6 @@ void Raycaster::Raycast(Room room, Player player){
       rayPos += step;
     }
 
-    std::cout << rayPos.x << ', ' << rayPos.y << std::endl;
-
     float perpDist = glm::distance(rayPos, player.getPosition());
 
     float draw_height = 2.0f * ((float) wall_height_)/(perpDist);
@@ -42,5 +40,8 @@ void Raycaster::Raycast(Room room, Player player){
     ci::gl::drawSolidRect(ci::Rectf(glm::vec2((float) x, (gap)), glm::vec2(x + brush_width_, (draw_height + gap))));
 
     x += (int) brush_width_;
+
+    ci::gl::color(ci::Color("white"));
+    //ci::gl::drawString("ray position " + std::to_string(rayPos.x) + "," + std::to_string(rayPos.y), glm::vec2(0,20));
   }
 }
