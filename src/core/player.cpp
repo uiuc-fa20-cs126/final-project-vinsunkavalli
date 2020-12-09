@@ -6,7 +6,7 @@ Player::Player(float posX, float posY, float dirX, float dirY){
   direction_ = glm::vec2(dirX, dirY);//made this configurable if necessary
 }
 
-glm::vec2 Player::getDirection() {
+glm::vec2 & Player::getDirection() {
   return direction_;
 }
 

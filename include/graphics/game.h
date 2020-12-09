@@ -4,6 +4,7 @@
 #include <core/room.h>
 #include <core/player.h>
 #include <core/enemy.h>
+#include <core/gameengine.h>
 #include <graphics/raycaster.h>
 
 #include <cinder/app/App.h>
@@ -16,17 +17,17 @@ class Game : public ci::app::App {
   Game();
 
   void draw() override;
-  //void update() override;
+  void update() override;
 
-  //void mouseDown(ci::app::MouseEvent event) override;
   void keyDown(ci::app::KeyEvent event) override;
  private:
-  Room room_;
-  Player player_;
+  //Room room_;
+  //Player player_;
   Raycaster raycaster_;
+  GameEngine game_engine_;
 
-  std::vector<Enemy> enemies_;
-  int score;
+  //std::vector<Enemy> enemies_;
+  //int score;
 
   float kWindowSize = 480;
 };

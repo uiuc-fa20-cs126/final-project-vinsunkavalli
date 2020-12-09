@@ -9,11 +9,11 @@ Room::Room(std::vector<std::vector<char>> map) {
   setRoomMap(map);
 }
 
-std::vector<std::vector<char>> Room::getRoomMap() {
+std::vector<std::vector<char>> & Room::getRoomMap() {
   return room_map_;
 }
 
-glm::vec2 Room::getRoomBounds() {
+glm::vec2 & Room::getRoomBounds() {
   return bounds_;
 }
 

@@ -12,7 +12,7 @@ class GameEngine{
  public:
   GameEngine();
 
-  void update(ci::app::KeyEvent event);
+  void update(int event);
 
   Room& getRoom();
   Player& getPlayer();
@@ -25,6 +25,8 @@ class GameEngine{
   int score;
 
   const int kEnemies = 3;//number of enemies to spawn
+  const float kMvmtSpeed = 0.1f;//player and enemy movement speed
+  const float kRotSpeed = 0.1f;//player rotation speed
 };
 
 #endif //FINAL_PROJECT_INCLUDE_CORE_GAMEENGINE_H_

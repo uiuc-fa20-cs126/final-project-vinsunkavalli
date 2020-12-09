@@ -167,6 +167,36 @@ app\cinder_app_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\app\cinder_app_main.cpp.s
 .PHONY : app\cinder_app_main.cpp.s
 
+src\core\enemy.obj: src\core\enemy.cpp.obj
+
+.PHONY : src\core\enemy.obj
+
+# target to build an object file
+src\core\enemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\enemy.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\enemy.cpp.obj
+.PHONY : src\core\enemy.cpp.obj
+
+src\core\enemy.i: src\core\enemy.cpp.i
+
+.PHONY : src\core\enemy.i
+
+# target to preprocess a source file
+src\core\enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\enemy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\enemy.cpp.i
+.PHONY : src\core\enemy.cpp.i
+
+src\core\enemy.s: src\core\enemy.cpp.s
+
+.PHONY : src\core\enemy.s
+
+# target to generate assembly for a file
+src\core\enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\enemy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\enemy.cpp.s
+.PHONY : src\core\enemy.cpp.s
+
 src\core\entity.obj: src\core\entity.cpp.obj
 
 .PHONY : src\core\entity.obj
@@ -196,6 +226,36 @@ src\core\entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\entity.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\entity.cpp.s
 .PHONY : src\core\entity.cpp.s
+
+src\core\gameengine.obj: src\core\gameengine.cpp.obj
+
+.PHONY : src\core\gameengine.obj
+
+# target to build an object file
+src\core\gameengine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\gameengine.cpp.obj
+.PHONY : src\core\gameengine.cpp.obj
+
+src\core\gameengine.i: src\core\gameengine.cpp.i
+
+.PHONY : src\core\gameengine.i
+
+# target to preprocess a source file
+src\core\gameengine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\gameengine.cpp.i
+.PHONY : src\core\gameengine.cpp.i
+
+src\core\gameengine.s: src\core\gameengine.cpp.s
+
+.PHONY : src\core\gameengine.s
+
+# target to generate assembly for a file
+src\core\gameengine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\src\core\gameengine.cpp.s
+.PHONY : src\core\gameengine.cpp.s
 
 src\core\player.obj: src\core\player.cpp.obj
 
@@ -371,6 +431,33 @@ tests\player_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\tests\player_test.cpp.s
 .PHONY : tests\player_test.cpp.s
 
+tests\test_main.obj: tests\test_main.cpp.obj
+
+.PHONY : tests\test_main.obj
+
+# target to build an object file
+tests\test_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\tests\test_main.cpp.obj
+.PHONY : tests\test_main.cpp.obj
+
+tests\test_main.i: tests\test_main.cpp.i
+
+.PHONY : tests\test_main.i
+
+# target to preprocess a source file
+tests\test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\tests\test_main.cpp.i
+.PHONY : tests\test_main.cpp.i
+
+tests\test_main.s: tests\test_main.cpp.s
+
+.PHONY : tests\test_main.s
+
+# target to generate assembly for a file
+tests\test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\final-project-test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\final-project-test.dir\tests\test_main.cpp.s
+.PHONY : tests\test_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -384,9 +471,15 @@ help:
 	@echo ... app/cinder_app_main.obj
 	@echo ... app/cinder_app_main.i
 	@echo ... app/cinder_app_main.s
+	@echo ... src/core/enemy.obj
+	@echo ... src/core/enemy.i
+	@echo ... src/core/enemy.s
 	@echo ... src/core/entity.obj
 	@echo ... src/core/entity.i
 	@echo ... src/core/entity.s
+	@echo ... src/core/gameengine.obj
+	@echo ... src/core/gameengine.i
+	@echo ... src/core/gameengine.s
 	@echo ... src/core/player.obj
 	@echo ... src/core/player.i
 	@echo ... src/core/player.s
@@ -405,6 +498,9 @@ help:
 	@echo ... tests/player_test.obj
 	@echo ... tests/player_test.i
 	@echo ... tests/player_test.s
+	@echo ... tests/test_main.obj
+	@echo ... tests/test_main.i
+	@echo ... tests/test_main.s
 .PHONY : help
 
 

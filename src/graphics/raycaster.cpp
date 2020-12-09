@@ -9,7 +9,7 @@ Raycaster::Raycaster(glm::vec2 top_left_corner, size_t wall_height, double brush
   //If necessary, initialize variables here
 }
 
-void Raycaster::Raycast(Room room, Player player){
+void Raycaster::Raycast(Room & room, Player & player){
   size_t x = 0;
 
   std::vector<std::vector<char>> room_map = room.getRoomMap();
@@ -17,12 +17,13 @@ void Raycaster::Raycast(Room room, Player player){
   glm::vec2 playerDir = player.getDirection();
 
 
+
   while (x <= window_width_){
 
-    double angle = ((float)x)/((float)window_width_);
+    float angle = ((float)x)/((float)window_width_);
 
     glm::vec2 rayPos = player.getPosition();
-    glm::vec2 rayDir = glm::vec2((playerDir.x - (float) cos(0.5) + (float) cos(angle)), (playerDir.y - (float) sin(0.5) + (float) sin(angle)));
+    glm::vec2 rayDir = glm::vec2((playerDir.x + cos(0.5f) - cos(angle)), (playerDir.y + sin(0.5f) - sin(angle)));
 
     glm::vec2 step = 0.01f * rayDir;
 
@@ -42,6 +43,6 @@ void Raycaster::Raycast(Room room, Player player){
     x += (int) brush_width_;
 
     ci::gl::color(ci::Color("white"));
-    //ci::gl::drawString("ray position " + std::to_string(rayPos.x) + "," + std::to_string(rayPos.y), glm::vec2(0,20));
+    std::cout << "ray position " << std::to_string(rayPos.x) << "," << std::to_string(rayPos.y) << std::endl;// glm::vec2(0,20));
   }
 }

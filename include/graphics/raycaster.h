@@ -7,9 +7,7 @@
 class Raycaster {
  public:
   Raycaster(glm::vec2 top_left_corner, size_t wall_height, double brush_width, size_t window_width);
-  void Draw() const;
-  void Clear() const;
-  void Raycast(Room room, Player player);
+  void Raycast(Room & room, Player & player);
  private:
   glm::vec2 top_left_corner_;
 

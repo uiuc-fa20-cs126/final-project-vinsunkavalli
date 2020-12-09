@@ -175,7 +175,15 @@
 		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/app/cinder_app_main.cpp">
 			<Option target="final-project-game"/>
 		</Unit>
+		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/core/enemy.cpp">
+			<Option target="final-project-game"/>
+			<Option target="final-project-test"/>
+		</Unit>
 		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/core/entity.cpp">
+			<Option target="final-project-game"/>
+			<Option target="final-project-test"/>
+		</Unit>
+		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/src/core/gameengine.cpp">
 			<Option target="final-project-game"/>
 			<Option target="final-project-test"/>
 		</Unit>
@@ -199,6 +207,9 @@
 			<Option target="final-project-test"/>
 		</Unit>
 		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/tests/player_test.cpp">
+			<Option target="final-project-test"/>
+		</Unit>
+		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/tests/test_main.cpp">
 			<Option target="final-project-test"/>
 		</Unit>
 		<Unit filename="C:/Users/buddi/Cinder/my-projects/final-project-vinsunkavalli/CMakeLists.txt">

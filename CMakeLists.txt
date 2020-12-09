@@ -52,6 +52,9 @@ include("${CINDER_PATH}/proj/cmake/modules/cinderMakeApp.cmake")
 list(APPEND CORE_SOURCE_FILES src/core/entity.cpp)
 list(APPEND CORE_SOURCE_FILES src/core/player.cpp)
 list(APPEND CORE_SOURCE_FILES src/core/room.cpp)
+list(APPEND CORE_SOURCE_FILES src/core/enemy.cpp)
+list(APPEND CORE_SOURCE_FILES src/core/gameengine.cpp)
+
 
 list(APPEND SOURCE_FILES ${CORE_SOURCE_FILES}
         src/graphics/game.cpp
@@ -59,6 +62,7 @@ list(APPEND SOURCE_FILES ${CORE_SOURCE_FILES}
 
 list(APPEND TEST_FILES tests/map_test.cpp)
 list(APPEND TEST_FILES tests/player_test.cpp)
+list(APPEND TEST_FILES tests/test_main.cpp)
 
 ci_make_app(
         APP_NAME final-project-game

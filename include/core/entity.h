@@ -9,7 +9,7 @@ class Entity{
  public:
   Entity();
 
-  glm::vec2 getPosition();
+  glm::vec2 & getPosition();
   void setPosition(float posX, float posY);
 
   //virtual void update(Room room);

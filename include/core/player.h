@@ -11,7 +11,7 @@ class Player: public Entity{
   Player(float posX, float posY, float dirX, float dirY);
 
   //no need to add position functions/variables as entity already contains them
-  glm::vec2 getDirection();
+  glm::vec2 & getDirection();
   void setDirection(float dirX, float dirY);
 };
 

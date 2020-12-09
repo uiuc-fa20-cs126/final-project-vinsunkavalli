@@ -137,9 +137,47 @@ CMakeFiles\final-project-game.dir\src\core\room.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\final-project-game.dir\src\core\room.cpp.s /c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\room.cpp
 <<
 
+CMakeFiles\final-project-game.dir\src\core\enemy.cpp.obj: CMakeFiles\final-project-game.dir\flags.make
+CMakeFiles\final-project-game.dir\src\core\enemy.cpp.obj: ..\src\core\enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/final-project-game.dir/src/core/enemy.cpp.obj"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\final-project-game.dir\src\core\enemy.cpp.obj /FdCMakeFiles\final-project-game.dir\ /FS -c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\enemy.cpp
+<<
+
+CMakeFiles\final-project-game.dir\src\core\enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/final-project-game.dir/src/core/enemy.cpp.i"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe > CMakeFiles\final-project-game.dir\src\core\enemy.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\enemy.cpp
+<<
+
+CMakeFiles\final-project-game.dir\src\core\enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/final-project-game.dir/src/core/enemy.cpp.s"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\final-project-game.dir\src\core\enemy.cpp.s /c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\enemy.cpp
+<<
+
+CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.obj: CMakeFiles\final-project-game.dir\flags.make
+CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.obj: ..\src\core\gameengine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.obj"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\final-project-game.dir\src\core\gameengine.cpp.obj /FdCMakeFiles\final-project-game.dir\ /FS -c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\gameengine.cpp
+<<
+
+CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.i"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe > CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\gameengine.cpp
+<<
+
+CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.s"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\final-project-game.dir\src\core\gameengine.cpp.s /c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\core\gameengine.cpp
+<<
+
 CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj: CMakeFiles\final-project-game.dir\flags.make
 CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj: ..\src\graphics\game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj"
 	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj /FdCMakeFiles\final-project-game.dir\ /FS -c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\graphics\game.cpp
 <<
@@ -158,7 +196,7 @@ CMakeFiles\final-project-game.dir\src\graphics\game.cpp.s: cmake_force
 
 CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj: CMakeFiles\final-project-game.dir\flags.make
 CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj: ..\src\graphics\raycaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj"
 	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj /FdCMakeFiles\final-project-game.dir\ /FS -c C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\src\graphics\raycaster.cpp
 <<
@@ -181,6 +219,8 @@ final__project__game_OBJECTS = \
 "CMakeFiles\final-project-game.dir\src\core\entity.cpp.obj" \
 "CMakeFiles\final-project-game.dir\src\core\player.cpp.obj" \
 "CMakeFiles\final-project-game.dir\src\core\room.cpp.obj" \
+"CMakeFiles\final-project-game.dir\src\core\enemy.cpp.obj" \
+"CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.obj" \
 "CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj" \
 "CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj"
 
@@ -191,12 +231,14 @@ Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.d
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\core\entity.cpp.obj
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\core\player.cpp.obj
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\core\room.cpp.obj
+Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\core\enemy.cpp.obj
+Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\core\gameengine.cpp.obj
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\build.make
 Debug\final-project-game\final-project-game.exe: C:\Users\buddi\Cinder\lib\msw\x86\Debug\v140\cinder.lib
 Debug\final-project-game\final-project-game.exe: CMakeFiles\final-project-game.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Debug\final-project-game\final-project-game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Debug\final-project-game\final-project-game.exe"
 	C:\Users\buddi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\final-project-game.dir --rc=C:\PROGRA~2\WI3CF2~1\8.1\bin\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\8.1\bin\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\final-project-game.dir\objects1.rsp @<<
  /out:Debug\final-project-game\final-project-game.exe /implib:final-project-game.lib /pdb:C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\cmake-build-debug\Debug\final-project-game\final-project-game.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:windows /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCPMT   -LIBPATH:C:\Users\buddi\Cinder\lib\msw\x86  C:\Users\buddi\Cinder\lib\msw\x86\Debug\v140\cinder.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

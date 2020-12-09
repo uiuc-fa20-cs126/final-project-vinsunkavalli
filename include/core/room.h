@@ -17,8 +17,8 @@ class Room{
   Room();
   Room(std::vector<std::vector<char>> map);
 
-  std::vector<std::vector<char>> getRoomMap();
-  glm::vec2 getRoomBounds();
+  std::vector<std::vector<char>> & getRoomMap();
+  glm::vec2 & getRoomBounds();
 
   void setRoomMap(std::vector<std::vector<char>> map);
   void setRoomBounds(float boundX, float boundY);
