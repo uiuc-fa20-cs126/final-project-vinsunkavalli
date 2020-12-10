@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:week3" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="final-project" targetName="final-project-test" />
+      <config projectName="final-project" targetName="final-project-game" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/enemy.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/enemy.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/entity.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/entity.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/gameengine.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/gameengine.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/player.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/player.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/room.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/room.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/enemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/enemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/entity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/gameengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/gameengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/room.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/room.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/graphics/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/graphics/raycaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/raycaster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/enemy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/gameengine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/gameengine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/map_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/map_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/player_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/player_test.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="week1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kIV7JsSpHQ4U4PPZV1Q5KeyqAn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli" />
+      <recent name="C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\engine\include\core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Catch.Player Set Up">
+    <configuration name="Loading Map" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-test" TEST_METHOD="Loading Map" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Player Set Up" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-test" TEST_METHOD="Player Set Up" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="final-project-game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-game" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-game">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="final-project-test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.final-project-game" />
+      <item itemvalue="CMake Application.final-project-test" />
+      <item itemvalue="Catch.Loading Map" />
+      <item itemvalue="Catch.Player Set Up" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Catch.Player Set Up" />
+        <item itemvalue="Catch.Loading Map" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="" />
+      <created>1605387924281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605387924281</updated>
+      <workItem from="1605387925385" duration="4052000" />
+      <workItem from="1605403543350" duration="644000" />
+      <workItem from="1605470455592" duration="5197000" />
+      <workItem from="1605664245033" duration="8654000" />
+      <workItem from="1606877991831" duration="3299000" />
+      <workItem from="1606973459126" duration="2339000" />
+      <workItem from="1607040151352" duration="900000" />
+      <workItem from="1607197631016" duration="3402000" />
+      <workItem from="1607388182359" duration="3192000" />
+      <workItem from="1607458502741" duration="21567000" />
+      <workItem from="1607536360006" duration="17398000" />
+    </task>
+    <task id="LOCAL-00001" summary="Came up with a new idea for the game and started work on it immediately">
+      <created>1605471102547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605471102548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rough outline of how the game classes would look">
+      <created>1605471387239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605471387239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created brief class outlines in headers, as well as added more header classes">
+      <created>1605491959744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605491959744</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished writing header code and creating cpp files - forgot to commit yesterday">
+      <created>1605665234309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605665234309</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished writing all code for core cpp files - except the operator overload and tests">
+      <created>1605668391692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605668391692</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)">
+      <created>1606878226006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606878226006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)">
+      <created>1606878235102</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606878235102</updated>
+    </task>
+    <task id="LOCAL-00008" summary="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)">
+      <created>1606879700061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606879700061</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified turning method - hopefully less buggy">
+      <created>1607476152388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607476152388</updated>
+    </task>
+    <task id="LOCAL-00010" summary="started restructuring before adding enemies and fixed proposal">
+      <created>1607481384358</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607481384358</updated>
+    </task>
+    <task id="LOCAL-00011" summary="started restructuring before adding enemies and fixed proposal">
+      <created>1607481395729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607481395729</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Coded enemies, just need to fix bug and render">
+      <created>1607538913053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607538913053</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Working on rendering enemies - everything else is implemented">
+      <created>1607564801265</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607564801265</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finished rendering enemies and coding attack function">
+      <created>1607568643957</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607568643957</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="week3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Came up with a new idea for the game and started work on it immediately" />
+    <MESSAGE value="Rough outline of how the game classes would look" />
+    <MESSAGE value="Created brief class outlines in headers, as well as added more header classes" />
+    <MESSAGE value="Finished writing header code and creating cpp files - forgot to commit yesterday" />
+    <MESSAGE value="Finished writing all code for core cpp files - except the operator overload and tests" />
+    <MESSAGE value="creating new branch deleted all files so commit history missing - wrote tests(player tests are gone so i need to rewrite) and coded raycaster(older version so movement and fish eye are still there)" />
+    <MESSAGE value="modified turning method - hopefully less buggy" />
+    <MESSAGE value="started restructuring before adding enemies and fixed proposal" />
+    <MESSAGE value="Coded enemies, just need to fix bug and render" />
+    <MESSAGE value="Working on rendering enemies - everything else is implemented" />
+    <MESSAGE value="Finished rendering enemies and coding attack function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished rendering enemies and coding attack function" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605664687229">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1036@0.0.1707.1036" timestamp="1605664687229" />
+    <state x="584" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607481450560">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="584" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1607481450560" />
+    <state x="609" y="221" key="#xdebugger.evaluate" timestamp="1607563326213">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="609" y="221" key="#xdebugger.evaluate/0.0.1707.1036@0.0.1707.1036" timestamp="1607563326213" />
+    <state x="93" y="93" width="1521" height="851" key="DiffContextDialog" timestamp="1605471675902">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="93" y="93" width="1521" height="851" key="DiffContextDialog/0.0.1707.1036@0.0.1707.1036" timestamp="1605471675902" />
+    <state x="634" y="273" key="FileChooserDialogImpl" timestamp="1605665814832">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="634" y="273" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1605665814832" />
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom" timestamp="1607574388999">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="355" key="GridCell.Tab.0.center" timestamp="1607574388999">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="355" key="GridCell.Tab.0.left" timestamp="1607574388999">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="355" key="GridCell.Tab.0.right" timestamp="1607574388999">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="355" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="346" key="GridCell.Tab.1.bottom" timestamp="1607568530200">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="346" key="GridCell.Tab.1.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state width="1663" height="346" key="GridCell.Tab.1.center" timestamp="1607568530200">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="346" key="GridCell.Tab.1.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state width="1663" height="346" key="GridCell.Tab.1.left" timestamp="1607568530200">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="346" key="GridCell.Tab.1.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state width="1663" height="346" key="GridCell.Tab.1.right" timestamp="1607568530200">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state width="1663" height="346" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state x="446" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606878260780">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="446" y="251" key="Vcs.Push.Dialog.v2/0.0.1707.1036@0.0.1707.1036" timestamp="1606878260780" />
+    <state x="93" y="93" width="1521" height="851" key="dock-window-1" timestamp="1605396998700">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="93" y="93" width="1521" height="851" key="dock-window-1/0.0.1707.1036@0.0.1707.1036" timestamp="1605396998700" />
+    <state x="516" y="224" width="672" height="678" key="search.everywhere.popup" timestamp="1605671770586">
+      <screen x="0" y="0" width="1707" height="1036" />
+    </state>
+    <state x="516" y="224" width="672" height="678" key="search.everywhere.popup/0.0.1707.1036@0.0.1707.1036" timestamp="1605671770586" />
+  </component>
+</project>
