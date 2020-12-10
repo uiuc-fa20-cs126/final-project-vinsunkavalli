@@ -14,11 +14,14 @@
 
 class Game : public ci::app::App {
  public:
+  /**
+   * Game class handles the external app as well as interactions with user
+   */
   Game();
 
+  ///app methods
   void draw() override;
   void update() override;
-
   void keyDown(ci::app::KeyEvent event) override;
  private:
   Raycaster raycaster_;

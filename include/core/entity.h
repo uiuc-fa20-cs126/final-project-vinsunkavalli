@@ -4,15 +4,17 @@
 #include <glm/glm.hpp>
 
 class Entity{
- private:
-  glm::vec2 position_;
  public:
+  /**
+   * Entity class is shell class for all game entities
+   */
   Entity();
 
+  //getter and setter for position
   glm::vec2 & getPosition();
   void setPosition(float posX, float posY);
-
-  //virtual void update(Room room);
+ private:
+  glm::vec2 position_;
 };
 
 #endif //FINAL_PROJECT_VINSUNKAVALLI_ENGINE_INCLUDE_CORE_ENTITY_H_

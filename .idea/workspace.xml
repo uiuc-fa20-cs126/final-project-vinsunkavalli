@@ -38,26 +38,31 @@
   <component name="ChangeListManager">
     <list default="true" id="2b20699b-28b5-470a-9e81-532a9c604a68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/app/cinder_app_main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/app/cinder_app_main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/core/gameengine.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/game.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/src/graphics/raycaster.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-game.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/enemy.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/enemy.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/entity.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/entity.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/gameengine.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/gameengine.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/player.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/player.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/room.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/src/core/room.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final-project-test.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Debug/final-project-game/final-project-game.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/enemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/enemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/entity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/gameengine.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/gameengine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/core/room.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/core/room.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/graphics/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/graphics/raycaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/graphics/raycaster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/enemy.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/gameengine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/gameengine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphics/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphics/raycaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphics/raycaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/map_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/map_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/player_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/player_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +105,14 @@
       <recent name="C:\Users\buddi\Cinder\my-projects\final-project-vinsunkavalli\engine\include\core" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.final-project-game">
+  <component name="RunManager" selected="Catch.Player Set Up">
     <configuration name="Loading Map" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-test" TEST_METHOD="Loading Map" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Player Set Up" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final-project" TARGET_NAME="final-project-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final-project" RUN_TARGET_NAME="final-project-test" TEST_METHOD="Player Set Up" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -131,9 +142,11 @@
       <item itemvalue="CMake Application.final-project-game" />
       <item itemvalue="CMake Application.final-project-test" />
       <item itemvalue="Catch.Loading Map" />
+      <item itemvalue="Catch.Player Set Up" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Catch.Player Set Up" />
         <item itemvalue="Catch.Loading Map" />
       </list>
     </recent_temporary>
@@ -156,7 +169,7 @@
       <workItem from="1607197631016" duration="3402000" />
       <workItem from="1607388182359" duration="3192000" />
       <workItem from="1607458502741" duration="21567000" />
-      <workItem from="1607536360006" duration="12656000" />
+      <workItem from="1607536360006" duration="17398000" />
     </task>
     <task id="LOCAL-00001" summary="Came up with a new idea for the game and started work on it immediately">
       <created>1605471102547</created>
@@ -249,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607564801265</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finished rendering enemies and coding attack function">
+      <created>1607568643957</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607568643957</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +310,8 @@
     <MESSAGE value="started restructuring before adding enemies and fixed proposal" />
     <MESSAGE value="Coded enemies, just need to fix bug and render" />
     <MESSAGE value="Working on rendering enemies - everything else is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on rendering enemies - everything else is implemented" />
+    <MESSAGE value="Finished rendering enemies and coding attack function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished rendering enemies and coding attack function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="615" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605664687229">
@@ -313,38 +334,38 @@
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
     <state x="634" y="273" key="FileChooserDialogImpl/0.0.1707.1036@0.0.1707.1036" timestamp="1605665814832" />
-    <state width="1663" height="346" key="GridCell.Tab.0.bottom" timestamp="1607568434227">
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom" timestamp="1607574388999">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607568434227" />
-    <state width="1663" height="346" key="GridCell.Tab.0.center" timestamp="1607568434227">
+    <state width="1663" height="355" key="GridCell.Tab.0.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="355" key="GridCell.Tab.0.center" timestamp="1607574388999">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607568434227" />
-    <state width="1663" height="346" key="GridCell.Tab.0.left" timestamp="1607568434226">
+    <state width="1663" height="355" key="GridCell.Tab.0.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="355" key="GridCell.Tab.0.left" timestamp="1607574388999">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607568434226" />
-    <state width="1663" height="346" key="GridCell.Tab.0.right" timestamp="1607568434227">
+    <state width="1663" height="355" key="GridCell.Tab.0.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="355" key="GridCell.Tab.0.right" timestamp="1607574388999">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607568434227" />
-    <state width="1663" height="346" key="GridCell.Tab.1.bottom" timestamp="1607568443432">
+    <state width="1663" height="355" key="GridCell.Tab.0.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607574388999" />
+    <state width="1663" height="346" key="GridCell.Tab.1.bottom" timestamp="1607568530200">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.1.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607568443432" />
-    <state width="1663" height="346" key="GridCell.Tab.1.center" timestamp="1607568443432">
+    <state width="1663" height="346" key="GridCell.Tab.1.bottom/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state width="1663" height="346" key="GridCell.Tab.1.center" timestamp="1607568530200">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.1.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607568443432" />
-    <state width="1663" height="346" key="GridCell.Tab.1.left" timestamp="1607568443432">
+    <state width="1663" height="346" key="GridCell.Tab.1.center/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state width="1663" height="346" key="GridCell.Tab.1.left" timestamp="1607568530200">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.1.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607568443432" />
-    <state width="1663" height="346" key="GridCell.Tab.1.right" timestamp="1607568443432">
+    <state width="1663" height="346" key="GridCell.Tab.1.left/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
+    <state width="1663" height="346" key="GridCell.Tab.1.right" timestamp="1607568530200">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>
-    <state width="1663" height="346" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607568443432" />
+    <state width="1663" height="346" key="GridCell.Tab.1.right/0.0.1707.1036@0.0.1707.1036" timestamp="1607568530200" />
     <state x="446" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606878260780">
       <screen x="0" y="0" width="1707" height="1036" />
     </state>

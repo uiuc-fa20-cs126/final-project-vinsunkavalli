@@ -1,7 +1,6 @@
 
 #include <catch2/catch.hpp>
 #include <core/room.h>
-#include <core/player.h>
 
 std::string kTestRoomPath = "C:\\Users\\buddi\\Cinder\\my-projects\\final-project-vinsunkavalli\\resources\\testroom";
 
@@ -52,9 +51,6 @@ TEST_CASE("Interacting with the Map") {
   //setting up game map
   Room map = Room();
   room_map >> map;
-
-  //setting up player
-  Player player = Player(1.5, 1.5, 1.0f, 1.0f);
 
   SECTION("Checking bounds of map") {
     REQUIRE(map.getRoomBounds() == glm::vec2(10, 10));

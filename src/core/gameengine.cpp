@@ -1,7 +1,7 @@
 #include <core/gameengine.h>
 
 GameEngine::GameEngine() :
-    player_(2.0f, 2.0f, 1.0f, 0.0f){
+    player_(2.0f, 2.0f, 0.0f, 1.0f){
   room_ = Room();
 
   std::ifstream room_map(kFilePath, std::ios::in);
@@ -12,6 +12,7 @@ GameEngine::GameEngine() :
 
   enemies_ = std::vector<Enemy>();
 
+  //randomly spawning enemies in room - certain distance away to allow player to move
   while(enemies_.size() < (unsigned) kEnemies) {
     Enemy enemy((rand() % 100)/100.0f * room_.getRoomBounds().x, (rand() % 100)/100.0f * room_.getRoomBounds().y);
 
@@ -27,7 +28,7 @@ void GameEngine::update(int event) {
     case ci::app::KeyEvent::KEY_a: {
       float angle = atan2(player_.getDirection().y, player_.getDirection().x);
 
-      angle += kRotSpeed;
+      angle -= kRotSpeed;
 
       glm::vec2 dir = glm::vec2(cos(angle), sin(angle));
 
@@ -38,7 +39,7 @@ void GameEngine::update(int event) {
     case ci::app::KeyEvent::KEY_d: {
       float angle = atan2(player_.getDirection().y, player_.getDirection().x);
 
-      angle -= kRotSpeed;
+      angle += kRotSpeed;
 
       glm::vec2 dir = glm::vec2(cos(angle), sin(angle));
 
@@ -82,6 +83,7 @@ void GameEngine::update(int event) {
       for(size_t i = 0; i < enemies_.size(); ++i) {
         Enemy enemy = enemies_.at(i);
 
+        //If an enemy is within range of the weapon, it is killed and replaced
         if(glm::distance(enemy.getPosition(), player_.getPosition()) < 1.5) {
           bool replaced = false;
 
