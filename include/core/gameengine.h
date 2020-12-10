@@ -12,21 +12,25 @@ class GameEngine{
  public:
   GameEngine();
 
+  bool gameOver;
+  int score;
+
   void update(int event);
 
   Room& getRoom();
   Player& getPlayer();
+  std::vector<Enemy> &getEnemies();
+
  private:
   Room room_;
   Player player_;
   std::vector<Enemy> enemies_;
 
-  bool gameOver;
-  int score;
-
   const int kEnemies = 3;//number of enemies to spawn
   const float kMvmtSpeed = 0.1f;//player and enemy movement speed
   const float kRotSpeed = 0.1f;//player rotation speed
+
+  const std::string kFilePath = "C:\\Users\\buddi\\Cinder\\my-projects\\final-project-vinsunkavalli\\resources\\testroom";
 };
 
 #endif //FINAL_PROJECT_INCLUDE_CORE_GAMEENGINE_H_

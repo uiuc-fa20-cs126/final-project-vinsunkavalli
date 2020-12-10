@@ -1,10 +1,10 @@
 #include <core/gameengine.h>
 
 GameEngine::GameEngine() :
-    player_(1.0f, 1.0f, 1.0f, 0.0f){
+    player_(2.0f, 2.0f, 1.0f, 0.0f){
   room_ = Room();
 
-  std::ifstream room_map("C:\\Users\\buddi\\Cinder\\my-projects\\final-project-vinsunkavalli\\resources\\testroom", std::ios::in);
+  std::ifstream room_map(kFilePath, std::ios::in);
   room_map >> room_;
 
   score = 0;
@@ -12,11 +12,10 @@ GameEngine::GameEngine() :
 
   enemies_ = std::vector<Enemy>();
 
-  //TODO Create enemies with randomized locations within room
   while(enemies_.size() < (unsigned) kEnemies) {
     Enemy enemy((rand() % 100)/100.0f * room_.getRoomBounds().x, (rand() % 100)/100.0f * room_.getRoomBounds().y);
 
-    if(room_.getRoomMap()[(int) enemy.getPosition().y][(int) enemy.getPosition().x] != '#'){
+    if(room_.getRoomMap()[(int) enemy.getPosition().y][(int) enemy.getPosition().x] != '#' && glm::distance(enemy.getPosition(), player_.getPosition()) > 1.5){
       enemies_.push_back(enemy);
     }
   }
@@ -24,6 +23,7 @@ GameEngine::GameEngine() :
 
 void GameEngine::update(int event) {
   switch(event){
+    //Turn left
     case ci::app::KeyEvent::KEY_a: {
       float angle = atan2(player_.getDirection().y, player_.getDirection().x);
 
@@ -34,6 +34,7 @@ void GameEngine::update(int event) {
       player_.setDirection(dir.x, dir.y);
       break;
     }
+    //Turn right
     case ci::app::KeyEvent::KEY_d: {
       float angle = atan2(player_.getDirection().y, player_.getDirection().x);
 
@@ -44,6 +45,7 @@ void GameEngine::update(int event) {
       player_.setDirection(dir.x, dir.y);
       break;
     }
+    //Move forwards
     case ci::app::KeyEvent::KEY_w: {
       glm::vec2 pos = player_.getPosition();
       glm::vec2 dir = player_.getDirection();
@@ -58,6 +60,7 @@ void GameEngine::update(int event) {
 
       break;
     }
+    //Move backwards
     case ci::app::KeyEvent::KEY_s: {
       glm::vec2 pos = player_.getPosition();
       glm::vec2 dir = player_.getDirection();
@@ -72,28 +75,32 @@ void GameEngine::update(int event) {
 
       break;
     }
-    case ci::app::KeyEvent::KEY_SPACE:
-      //TODO Code attack animation to kill enemies
+    //Player attack
+    case ci::app::KeyEvent::KEY_SPACE: {
       for(auto i = enemies_.begin(); i != enemies_.end(); ++i) {
         Enemy enemy = *i;
-
-
+        //TODO fix enemy removal
+/*
         if(glm::distance(enemy.getPosition(), player_.getPosition()) < 1.5) {
-          //TODO draw rectangle animation
           enemies_.erase(i);
-          --i;
         }
+*/
+        score++;
       }
 
       break;
+    }
+    //Default case - used to update enemy behavior
     case -1: {
-      //TODO Make enemies move towards player
       for(size_t i = 0; i < enemies_.size(); ++i) {
         Enemy enemy = enemies_.at(i);
+        glm::vec2 newPos = enemy.getPosition() + (player_.getPosition() - enemy.getPosition()) * kMvmtSpeed;
 
-        glm::vec2 newPos = (player_.getPosition() - enemy.getPosition()) * kMvmtSpeed;
+        enemies_.at(i).setPosition(newPos.x, newPos.y);
 
-        enemy.setPosition(newPos.x, newPos.y);
+        if(glm::distance(newPos, player_.getPosition()) < 0.5) {
+          //gameOver = true;
+        }
       }
 
       break;
@@ -107,5 +114,9 @@ Player & GameEngine::getPlayer() {
 
 Room & GameEngine::getRoom() {
   return room_;
+}
+
+std::vector<Enemy> & GameEngine::getEnemies() {
+  return enemies_;
 }
 

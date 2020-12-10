@@ -3234,6 +3234,7 @@ CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj: C:\Users\buddi\Cind
 CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj: C:\Users\buddi\Cinder\include\glm\vector_relational.hpp
 CMakeFiles\final-project-game.dir\src\graphics\game.cpp.obj: ..\src\graphics\game.cpp
 
+CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj: ..\include\core\enemy.h
 CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj: ..\include\core\entity.h
 CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj: ..\include\core\player.h
 CMakeFiles\final-project-game.dir\src\graphics\raycaster.cpp.obj: ..\include\core\room.h

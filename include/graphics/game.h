@@ -21,15 +21,12 @@ class Game : public ci::app::App {
 
   void keyDown(ci::app::KeyEvent event) override;
  private:
-  //Room room_;
-  //Player player_;
   Raycaster raycaster_;
   GameEngine game_engine_;
 
-  //std::vector<Enemy> enemies_;
-  //int score;
+  int attack = 0;//number of frames for attack animation - necessary as this can't be drawn anywhere else
 
-  float kWindowSize = 480;
+  const int kWindowSize = 512;
 };
 
 #endif //FINAL_PROJECT_VINSUNKAVALLI_INCLUDE_GRAPHICS_GAME_H_
