@@ -10,8 +10,7 @@ class Raycaster {
  public:
   Raycaster(glm::vec2 top_left_corner, size_t wall_height, double brush_width, size_t window_width);
   void Raycast(Room & room, Player & player);
-  void Raycast(Room &room, Player &player, std::vector<Enemy> &enemies);
-  void RaycastEnemies(std::vector<Enemy> &enemies);
+  void RaycastEnemies(Player &player, std::vector<Enemy> &enemies);
  private:
   glm::vec2 top_left_corner_;
 
@@ -20,6 +19,9 @@ class Raycaster {
   double brush_width_;
   size_t window_width_;
 
+  size_t enemy_height_;
+
+  const float kEnemySize = 0.4f;
 };
 
 #endif //FINAL_PROJECT_VINSUNKAVALLI_INCLUDE_GRAPHICS_RAYCASTER_H_

@@ -77,14 +77,24 @@ void GameEngine::update(int event) {
     }
     //Player attack
     case ci::app::KeyEvent::KEY_SPACE: {
-      for(auto i = enemies_.begin(); i != enemies_.end(); ++i) {
-        Enemy enemy = *i;
-        //TODO fix enemy removal
-/*
+      std::vector<Enemy> newEnemyList;
+
+      for(size_t i = 0; i < enemies_.size(); ++i) {
+        Enemy enemy = enemies_.at(i);
+
         if(glm::distance(enemy.getPosition(), player_.getPosition()) < 1.5) {
-          enemies_.erase(i);
+          bool replaced = false;
+
+          while(!replaced) {
+            glm::vec2 newPos((rand() % 100)/100.0f * room_.getRoomBounds().x, (rand() % 100)/100.0f * room_.getRoomBounds().y);
+
+            if(room_.getRoomMap()[(int) newPos.y][(int) newPos.x] != '#' && glm::distance(newPos, player_.getPosition()) > 3){
+              enemies_.at(i).setPosition(newPos.x, newPos.y);
+              replaced = true;
+            }
+          }
         }
-*/
+
         score++;
       }
 
@@ -94,12 +104,12 @@ void GameEngine::update(int event) {
     case -1: {
       for(size_t i = 0; i < enemies_.size(); ++i) {
         Enemy enemy = enemies_.at(i);
-        glm::vec2 newPos = enemy.getPosition() + (player_.getPosition() - enemy.getPosition()) * kMvmtSpeed;
+        glm::vec2 newPos = enemy.getPosition() + (player_.getPosition() - enemy.getPosition()) * kMvmtSpeed * 0.33f;
 
         enemies_.at(i).setPosition(newPos.x, newPos.y);
 
         if(glm::distance(newPos, player_.getPosition()) < 0.5) {
-          //gameOver = true;
+          gameOver = true;
         }
       }
 

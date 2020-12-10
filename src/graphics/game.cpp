@@ -16,11 +16,11 @@ void Game::draw() {
     //render map - call raycast
     raycaster_.Raycast(game_engine_.getRoom(), game_engine_.getPlayer());
     //TODO render enemies
-    raycaster_.RaycastEnemies(game_engine_.getEnemies());
+    raycaster_.RaycastEnemies(game_engine_.getPlayer(), game_engine_.getEnemies());
 
     if(attack > 0) {
       ci::gl::color(ci::Color("red"));
-      ci::gl::drawSolidRect(ci::Rectf(glm::vec2(226.0f, 0.0f), glm::vec2(266.0f, 512.0f)));
+      ci::gl::drawSolidRect(ci::Rectf(glm::vec2(0.0f, 246.0f), glm::vec2(512.0f, 266.0f)));
 
       attack--;
     }
